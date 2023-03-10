@@ -21,14 +21,13 @@ public class EjercicioExtra_5 {
    Scanner leer = new Scanner(System.in);
         System.out.println("Porfavor ingrese un numero entero");
         int numero,numero_doble,numero_triple;
-        double pi;
+        
         numero = leer.nextInt();
         numero_doble = numero * 2;
         numero_triple = numero * 3;
-        pi = numero * 3.14;
           System.out.println("El doble de " + numero + " = " + numero_doble);
           System.out.println("El triple de " + numero + " = " + numero_triple); 
-          System.out.println("El número " + numero + " * " + " PI " + " = " + pi); 
+          System.out.println("la raiz cuadrada es: " + Math.sqrt(numero)); 
           
     }
     
